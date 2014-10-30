@@ -47,7 +47,7 @@
     <developerConnection>scm:git:git@github.com:OpenConextApps/apis.git</developerConnection>
   </scm>
 
-
+  <!--该项目的构件 依赖的仓库 需要把这个仓库加入到本地私库里面，配置代理仓库，将该代理仓库放到使用的那个仓库组-->
   <distributionManagement>
     <repository>
       <id>openconext-releases</id>

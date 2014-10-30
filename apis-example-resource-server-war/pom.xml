@@ -21,7 +21,7 @@
 	<name>API Secure - example resource server war</name>
 
 	<properties>
-		<servlet.port>8082</servlet.port>
+		<servlet.port>8088</servlet.port>
 	</properties>
 
 	<dependencies>
@@ -57,11 +57,11 @@
           <connectors>
             <connector implementation="org.eclipse.jetty.server.nio.SelectChannelConnector">
               <port>${servlet.port}</port>
-              <host>0.0.0.0</host>
+              <!--<host>0.0.0.0</host>-->
             </connector>
           </connectors>
-          <reload>manual</reload>
-          <useTestClasspath>true</useTestClasspath>
+          <!--<reload>manual</reload>-->
+          <!--<useTestClasspath>true</useTestClasspath>-->
         </configuration>
       </plugin>
     </plugins>
